@@ -15,9 +15,6 @@ const cardsMarkup = createMenuMarkup(menu);
 toggle.addEventListener('change', addClassOperation);
 function addClassOperation(event) {
   body.classList.toggle('dark-theme');
-  //    if(body.classList.value==='dark-theme'){
-
-  //    }
 }
 
 toggle.addEventListener('change', changeStorageValue);
